@@ -36,3 +36,4 @@ const TabelaImc = (resultado)=>{
         )
     }
 }
+export default TabelaImc

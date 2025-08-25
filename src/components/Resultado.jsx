@@ -1,21 +1,23 @@
 import '../css/global.css'
 import '../css/resultado.css'
-import TabelaImc from '.TabelaImc'
+import TabelaImc from './TabelaImc'
 
-//destruct - desestruturação = acessa propriedades de outros componentes
+
+
+//destruct - desestruturação = acessa propiedades de outro componente
 function Resultado({resultado}){
     return(
         <div>
             <div className="resultado">
                 <h2>
-                    Seu IMC é de:<span className='imcSpan'>{resultado}</span>
+                    Seu IMC é de: <span calssName='imcSpan'>{resultado}</span>
                 </h2>
             </div>
-            <table>
-                <thead className='TabelaHeader'>
+            <table className='tabela'>
+                <thead className='tabelaHeader'>
                     <tr>
                         <th>Classificação</th>
-                        <td>IMC</td>
+                        <th>IMC</th>
                     </tr>
                 </thead>
                 <tbody className='tabelaBody'>

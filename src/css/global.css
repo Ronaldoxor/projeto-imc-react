@@ -1,0 +1,27 @@
+:root{
+    --fontColor1:#fff;
+    --fontColor2:#000;
+    --bgColor1:#030436;
+    --bgColor2:#2d30f0;
+    --bgColor3:#f1e9e9;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+//responsividade
+@media (max-width: 500px){
+    .container{
+    justify-content:start;
+    padding: 15px;
+    }
+}
